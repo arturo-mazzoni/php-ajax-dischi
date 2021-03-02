@@ -51,19 +51,15 @@
 
   <main>
     <div class="container">
-      <div class="box">
-        <?php foreach($array as $item){ ?>
+      <?php foreach($array as $item){ ?>
+              <div class="box">
                 <h2> <?php echo $item["title"] ?> </h2>
                 <h4> <?php echo $item["artist"] ?> </h4>
                 <img src="img/<?php echo $item["cover"] ?>" alt="cover">
-        <?php } ?>
-      </div>
+              </div>
+      <?php } ?>
     </div>
   </main>
-
-
-  <footer></footer>
-
 
   <script src="dist/script.js" charset="utf-8"></script>
 </body>

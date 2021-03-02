@@ -1,34 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "partials/common";
+@import "partials/header";
+@import "partials/main";
 
-header {
-    width: 100%;
-    height: 90px;
-    background-color: #2a2a2e; 
 
-    img {
-        height: 90px;
-    }
-}
 
-.container {
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
 
-    .box {
-        width: 200px;
-        height: 400px;
-        background-color: grey;
-        img{
-            width: 200px;
-        }
-    }
-}
 
 
 
