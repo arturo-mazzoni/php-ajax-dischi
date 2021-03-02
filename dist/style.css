@@ -1,1 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #2a2a2e;
+}
+header img {
+  height: 90px;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .box {
+  width: 200px;
+  height: 400px;
+  background-color: grey;
+}
+.container .box img {
+  width: 200px;
+}
